@@ -1,0 +1,35 @@
+Arrays: A collection of elements, each identified by an index or a key. Arrays offer constant-time access to elements by index but can have limitations on resizing.
+
+Linked Lists: A linear data structure made up of nodes, where each node holds a value and a reference to the next node. Linked lists can be singly linked (each node points to the next) or doubly linked (each node points to both the next and previous nodes).
+
+Stacks: A collection of elements with two main operations: push (add to the top) and pop (remove from the top). It follows the Last-In-First-Out (LIFO) principle.
+
+Queues: A collection of elements with two main operations: enqueue (add to the back) and dequeue (remove from the front). It follows the First-In-First-Out (FIFO) principle.
+
+Hash Tables (Dictionaries in Python): Data structures that store key-value pairs. Hash tables provide fast average-case access to values based on their keys.
+
+Trees: Hierarchical data structures with a root element and child elements. Common types include binary trees, binary search trees, AVL trees, and more.
+
+Heaps: Specialized tree-based structures that satisfy the heap property. Commonly used for priority queues and heap-sort algorithms.
+
+Graphs: Structures composed of nodes connected by edges. Graphs can be directed (edges have a direction) or undirected.
+
+Trie: A tree-like data structure used for efficient retrieval of keys in a dataset of strings.
+
+Disjoint Set Union (Union-Find): A data structure that efficiently keeps track of a partition of a set into disjoint subsets.
+
+Bloom Filters: Probabilistic data structures used to test whether an element is a member of a set. They provide fast membership queries but may have false positives.
+
+Segment Trees: Used for range queries and updates on a set of elements. Often used in scenarios like finding minimum or maximum values in a range of elements.
+
+Suffix Trees/Arrays: Data structures used for substring searching within strings.
+
+Red-Black Trees: A type of balanced binary search tree that ensures logarithmic height and efficient insertion and deletion.
+
+Skip Lists: Probabilistic data structures that offer a balance between simplicity and performance in sorted list manipulation.
+
+Graph Adjacency Lists/Matrices: Common representations of graphs in computer science. Adjacency lists use lists to represent edges, while adjacency matrices use a matrix to represent the connections between nodes.
+
+Priority Queues: Data structures that maintain a set of elements with keys and provide efficient access to the element with the highest (or lowest) priority.
+
+Hash Maps: Similar to hash tables but usually implemented as part of a library rather than manually like hash tables.

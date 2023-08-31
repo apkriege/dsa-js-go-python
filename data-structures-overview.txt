@@ -1,0 +1,66 @@
+Array 
+
+An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together. This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array).
+
+Use an array data structure when you want to:
+1. Store multiple items of the same type together.
+2. Access elements by a numeric index.
+3. Perform random access, i.e., access any item in constant time.
+4. Iterate over the elements sequentially.
+5. Store the elements in contiguous memory locations.
+6. Have a fixed number of elements (i.e., the length of the array is fixed).
+
+Real World Examples:
+1. Shopping List: A list of items you need to buy at the grocery store can be represented using an array.
+2. Temperature Readings: An array can store temperature readings taken at different times throughout the day.
+3. Student Grades: A collection of student grades in a class can be stored in an array.
+4. Time Series Data: Stock prices at different points in time can be stored in an array.
+5. Calendar Dates: An array can represent the days of the week or months of the year.
+6. Pixel Colors in an Image: The color of each pixel in an image can be stored in a multi-dimensional array.
+7. Sensor Readings: An array can hold readings from sensors, such as temperature, humidity, or pressure.
+8. Music Playlist: A list of songs in a playlist can be stored in an array.
+9. High Scores: An array can hold high scores in a video game.
+10. Phone Numbers: An array can represent phone numbers in a contact list.
+11. Employee IDs: IDs of employees in a company can be stored in an array.
+12. DNA Sequences: Arrays can be used to store sequences of DNA molecules.
+13. Color Palette: An array can store a set of colors available for use in a graphic design application.
+14. Bus Timetables: Timings of bus arrivals and departures can be stored in an array.
+15. Sensor Array: In scientific research, arrays of sensors can be used to collect data from various points.
+
+----------------------
+----------------------
+
+Queue
+
+A queue is a linear data structure that follows the "first-in, first-out" (FIFO) principle. In a queue, elements are stored and accessed in the order they were added, with the element added first being the one to be removed or processed first. This behavior is analogous to people waiting in line or a line of items moving along a conveyor belt.
+
+
+Use a queue data structure when you want to:
+1. Process in Order: Ensure that items are processed in the same order they were added.
+2. Breadth-First Exploration: Traverse elements in a graph or tree level by level.
+3. Task/Jobs Management: Execute tasks in the order they're received.
+4. Limited Resource Allocation: Share limited resources fairly among processes.
+5. Message Passing: Enable reliable communication between distributed components.
+6. Waiting List: Manage waiting lists for services with limited capacity.
+7. Caching: Implement LRU caching, maintaining a specified cache size.
+8. Synchronization: Coordinate actions between different threads or processes.
+9. Event Handling: Process user actions or events in the order they occur.
+10. Buffering: Temporarily store incoming data exceeding processing capacity.
+
+Real World Examples: 
+
+1. Supermarket Checkout: Customers waiting in line to pay for their items form a queue. The first customer in line is the first to be served.
+2. Traffic at Toll Booths: Vehicles waiting to pay tolls at a toll booth create a queue. The vehicles enter the queue one by one and are processed in the order they arrived.
+3. Print Queue: When multiple print jobs are sent to a printer, they are placed in a queue. The printer processes the print jobs in the order they were received.
+4. Call Center: Incoming customer calls are put in a queue until an available representative is ready to take the call.
+5. Restaurant Waiting List: Customers waiting to be seated at a busy restaurant form a queue. The next available table is given to the customer at the front of the queue.
+6. Elevator: People waiting for an elevator to arrive and take them to their desired floor create a queue. The elevator serves them in the order they entered.
+7. Airport Security Check: Passengers waiting in line to go through security checks at an airport form a queue. They are processed one by one.
+8. Bank ATM: Customers waiting to use an ATM create a queue. The ATM serves customers in the order they arrived.
+9. Online Orders: In e-commerce, orders awaiting processing and shipping are placed in a queue. They are fulfilled based on the order they were received.
+10. Task Scheduler: When multiple tasks are running on a computer's operating system, they are placed in a queue to be executed by the CPU.
+11. Message Queues: In distributed systems, messages sent between different services or components are placed in a message queue and processed in the order they were added.
+12. Public Transportation: People waiting for buses, trains, or subways form queues. The transportation vehicles arrive and depart, serving passengers in the order they arrived.
+
+----------------------
+----------------------
